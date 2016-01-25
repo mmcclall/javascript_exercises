@@ -1,6 +1,4 @@
-/*
-    Creates a variable sized grid of hashes
-*/
+// Creates a variable sized grid of hashes
 var size = 8;
 var output;
 
