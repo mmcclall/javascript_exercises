@@ -1,3 +1,3 @@
 # javascript_exercises
 
-# exercises from eloquentjavascript.net
+exercises from eloquentjavascript.net
