@@ -4,12 +4,16 @@
 function range(start, end, step) {
     var array = [];
 
+    // check to ensure start is less than end
     if (start < end) {
         if (!step)
             step = 1;
         for (var i = start; i <= end; i += step)
             array.push(i);
+            
+    // if start is greater than end
     } else if (start > end) {
+        // set the default step to a negative to prevent infinite loop
         if (!step)
             step = -1;
         for (var i = start; i >= end; i += step)
